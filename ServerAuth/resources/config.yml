@@ -23,7 +23,7 @@ passwordHash: "sha256"
 #ServerAuth language
 language: "EN_en"
 #ServerAuth message prefix
-prefix: "&1[ServerAuth] "
+prefix: "&b[&eCosmicMiner&b] "
 #Show join message (defined on join-message in the current language file)
 show-join-message: true
 #Use MySQL (set this to false if you want to save data in local files)
@@ -57,7 +57,7 @@ register:
   #Enable register on your server
   enabled: true
   #Require password confirmation
-  password-confirm-required: false
+  password-confirm-required: true
   #Enable max registrations per IP
   enable-max-ip: false
   #Max registrations per IP
