@@ -36,7 +36,7 @@ class ServerAuth extends PluginBase {
 	//Other Const
 	
 	/** @var string PREFIX Plugin prefix */
-	const PREFIX = "&1[ServerAuth] ";
+	const PREFIX = "&b[&eCosmicMiner&b] ";
 	
 	//Error const
 	
