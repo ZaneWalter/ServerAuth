@@ -1,7 +1,7 @@
 #ServerAuth plugin English language file
 #Translation by Flavius12, EvolSoft
 ---
-join-message: "&bAuthentication system provided by &aServerAuth &bplugin"
+join-message: "&0•&b&o-- &e&iWelcome To &l&aCosmicMiner §eMcPe Server &r&b--\n&0•&6&l&oYou Can Play Survival, Creative, Prison Miners and More! Create Guilds, Team Up With Your Friends And Don't Forget To Read The Rules On Spawn. Need Help? Use &a/help &6To See Commands. Enjoy Your Time With Cosmic!"
 single-auth: "&cA player with this nickname is already authenticated!"
 mysql-success: "&aServerAuth successfully connected to the MySQL database!"
 mysql-restored: "&aMySQL connection restored!"
@@ -9,21 +9,21 @@ mysql-fail: "&cServerAuth can't connect to the MySQL database. Data will be save
 config-reloaded: "&aConfiguration reloaded!"
 operation-cancelled: "&cOperation cancelled"
 login:
-  message: "&cPlease login with /login <password>"
+  message: "&0•&bPlease login with /login <password>"
   disabled: "&cLogin disabled in this server"
   command: "&cUsage: /login <password>"
-  ip-login: "&9You are logged in by IP"
-  login-success: "&aYou have been logged in!"
+  ip-login: "&aYou are logged in by IP"
+  login-success: "&aYou have been authenticated"
   login-timeout: "&cLogin Timeout"
   already-login: "&aYou are already logged in"
   too-many-attempts: "&cToo many login attempts!"
 register: 
-  message: "&cPlease register with /register <password>"
-  message-conf: "&cPlease register with /register <password> <confirmPassword>"
+  message: "&0•&bPlease register with /register <password>"
+  message-conf: "&0•&bPlease register with /register <password> <confirmPassword>"
   disabled: "&cRegister disabled in this server"
   command: "&cUsage: /register <password>"
   command-conf: "&cUsage: /register <password> <confirmPassword>"
-  register-success: "&aYou are now registered!"
+  register-success: "&aYou have been registered"
   register-timeout: "&cRegister Timeout"
   already-registered: "&aYou are already registered"
 changepassword:
@@ -32,7 +32,7 @@ changepassword:
   command: "&cUsage: /changepassword <newPassword>"
   command-conf: "&cUsage: /changepassword <newPassword> <confirmPassword>"
   command-cons: "&cUsage: /changepassword <player> <newPassword>"
-  changepassword-success: "&aPassword changed!"
+  changepassword-success: "&aPassword changed successfully"
   changepassword-cons-success: "&aPassword for user &b{PLAYER} &achanged to &b{PASSWORD}"
 logout:
   disabled: "&cLogout disabled in this server"
@@ -42,7 +42,7 @@ unregister:
   login-required: "&cYou need to be logged in to unregister"
   command: "&cUsage: /unregister <password>"
   command-cons: "&cUsage: /unregister <player>"
-  unregister-success: "&aYou are now unregistered!"
+  unregister-success: "&aYou have successfully unregistered!"
   unregister-success-3rd: "&aThe player is now unregistered!"
 help:
    1: "&b=> &aAvailable Commands &b<="
