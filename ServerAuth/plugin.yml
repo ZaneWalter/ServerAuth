@@ -8,7 +8,7 @@ description: The most advanced authentication plugin for PocketMine-MP.
 website: http://www.evolsoft.tk
 commands:
  serverauth:
-  aliases: [sa, sauth, auth]
+  aliases: [auth]
   description: ServerAuth Commands.
  register:
   aliases: [reg]
@@ -18,7 +18,7 @@ commands:
   description: Allows logging into an account
   permission: serverauth.login
  changepassword:
-  aliases: [ch, chp, chpass]
+  aliases: [chpass]
   description: Allows changing account password
   permission: serverauth.changepassword
  unregister:
